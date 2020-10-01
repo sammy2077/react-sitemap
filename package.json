@@ -1,0 +1,33 @@
+{
+  "name": "react-sitemap",
+  "version": "1.0.0",
+  "description": "Generate sitemap for react applications",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/agweria/react-sitemap",
+  "author": "Samuel Dervis <sam@agweria.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "sitemap",
+    "react",
+    "react-router",
+    "sitemap",
+    "typescript"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config=jest.config.json",
+    "prepublish": "npm test"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "peerDependencies": {
+    "react": "^15.1.0 || ^16.0.0",
+    "react-router": "^2.3.0 || ^3.2.1 || ^4.3.0"
+  },
+  "dependencies": {
+    "sitemap": "^6.3.2"
+  }
+}
